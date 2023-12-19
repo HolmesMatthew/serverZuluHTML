@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
       heroImages.style.transform = `translateX(-${counter * 100}%)`;
     }
 
-    console.log(counter);
+    // console.log(counter);
   });
 
   prevButton.addEventListener("click", function () {
@@ -25,6 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
       counter--;
       heroImages.style.transform = `translateX(-${counter * 100}%)`;
     }
-    console.log(counter);
+    // console.log(counter);
   });
 });
