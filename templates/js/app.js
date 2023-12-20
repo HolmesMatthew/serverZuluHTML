@@ -27,4 +27,11 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     // console.log(counter);
   });
+
+  //
+  const hamburger = document.querySelector(".hamburger-menu");
+  const links = document.querySelector(".links");
+  hamburger.addEventListener("click", function () {
+    links.style.display = links.style.display === "flex" ? "none" : "flex";
+  });
 });
